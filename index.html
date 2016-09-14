@@ -1,15 +1,19 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="luyon">
     <head>
         <meta charset="utf-8">
         <title>前端技术分享</title>
-        <link rel="stylesheet" href="/css/master.css">
-        <link rel="stylesheet" href="/css/master.css">
-        <script type="text/javascript" src=""></script>
-        <script type="text/javascript" src=""></script>
-        <script type="text/javascript" src=""></script>
+        <link rel="stylesheet" href="src/framework/css/bootstrap.min.css">
     </head>
     <body>
 
+    <headnav></headnav>
+    <div ui-view="main"></div>
+
+
+    <script type="text/javascript" src="src/framework/js/jquery.min.js"></script>
+    <script type="text/javascript" src="src/framework/js/angular.min.js"></script>
+    <script type="text/javascript" src="src/framework/js/angular-ui-router.min.js"></script>
+    <!--<script src="build.js"></script>-->
     </body>
 </html>
