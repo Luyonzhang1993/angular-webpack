@@ -1,0 +1,4 @@
+#ignore build files
+build.js
+build.js.map
+node_modules
